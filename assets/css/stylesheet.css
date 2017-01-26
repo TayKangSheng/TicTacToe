@@ -1,0 +1,45 @@
+
+body {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Noto Sans', sans-serif;
+  background-color: #073B4C;
+  color: #06D6A0;
+}
+
+button:focus {
+  outline:0;
+}
+
+.container {
+  opacity: 0;
+  font-family: 'Seymour One', sans-serif;
+  width: 320px;
+  height: 320px;
+  background-color: black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  transition: opacity 1s linear 1s
+}
+
+.gridbox {
+  display: flex;
+  width: 100px;
+  height: 100px;
+  background-color: #FFD166;
+}
+
+.gridbox span {
+  margin: 0px auto;
+  vertical-align: middle;
+  line-height: 100px;
+  font-size: 48px;
+}
+
+.hor-center {
+  text-align:center;
+  margin: 0px auto;
+}
